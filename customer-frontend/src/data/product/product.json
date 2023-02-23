@@ -1,0 +1,614 @@
+[
+  {
+    "name": "Oracle",
+    "price": "30",
+    "id": "1",
+    "isSale": false,
+    "image": "/assets/img/products/product_oracle.jpg",
+    "category": "it_companies",
+    "filterItems": ["it_companies", "stocks"],
+    "productNumber": "1",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "IBM",
+    "price": "25",
+    "id": "2",
+    "isSale": false,
+    "image": "/assets/img/products/product_ibm.jpg",
+    "category": "it_companies",
+    "filterItems": ["it_companies", "stocks"],
+    "productNumber": "2",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "Epam",
+
+    "price": "30",
+    "id": "3",
+    "isSale": false,
+    "image": "/assets/img/products/product_epam.jpg",
+    "category": "it_companies",
+    "filterItems": ["it_companies", "stocks"],
+    "productNumber": "3",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "Apple",
+    "price": "35",
+    "id": "4",
+    "isSale": false,
+    "image": "/assets/img/products/product_apple.jpg",
+    "category": "it_companies",
+    "filterItems": ["it_companies", "stocks"],
+    "productNumber": "4",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft",
+    "price": "35",
+    "id": "5",
+    "isSale": false,
+    "image": "/assets/img/products/product_microsoft.jpg",
+    "category": "it_companies",
+    "filterItems": ["it_companies", "stocks"],
+    "productNumber": "5",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "Nestlé",
+    "price": "25",
+    "id": "6",
+    "isSale": false,
+    "image": "/assets/img/products/product_nestle.jpg",
+    "category": "food_manufacturing",
+    "filterItems": ["food_manufacturing", "stocks"],
+    "productNumber": "6",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "Danone",
+
+    "price": "30",
+    "id": "7",
+    "isSale": false,
+    "image": "/assets/img/products/product_danone.jpg",
+    "category": "food_manufacturing",
+    "filterItems": ["food_manufacturing", "stocks"],
+    "productNumber": "7",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "Kraft Heinz",
+
+    "price": "30",
+    "id": "8",
+    "isNew": true,
+    "isSale": false,
+    "image": "/assets/img/products/product_heinz.jpg",
+    "category": "food_manufacturing",
+    "filterItems": ["food_manufacturing", "stocks"],
+    "productNumber": "8",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "Tesla",
+
+    "price": "30",
+    "id": "9",
+    "isSale": false,
+    "image": "/assets/img/products/product_tesla.jpg",
+    "category": "automobile_manufacturing",
+    "filterItems": ["automobile_manufacturing", "stocks"],
+    "productNumber": "9",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "Toyota Motor",
+
+    "price": "30",
+    "id": "10",
+    "isSale": false,
+    "image": "/assets/img/products/product_toyota.jpg",
+    "category": "automobile_manufacturing",
+    "filterItems": ["automobile_manufacturing", "stocks"],
+    "productNumber": "10",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "General Motors",
+
+    "price": "30",
+    "id": "11",
+    "isSale": false,
+    "image": "/assets/img/products/product_gm.jpg",
+    "category": "automobile_manufacturing",
+    "filterItems": ["automobile_manufacturing", "stocks"],
+    "productNumber": "11",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "Volkswagen",
+    "price": "30",
+    "id": "12",
+    "isNew": true,
+    "isSale": false,
+    "image": "/assets/img/products/product_volkswagen.jpg",
+    "category": "automobile_manufacturing",
+    "filterItems": ["automobile_manufacturing", "stocks"],
+    "productNumber": "12",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "Johnson & Johnson",
+
+    "price": "30",
+    "id": "13",
+    "isSale": false,
+    "image": "/assets/img/products/product_johnson.jpg",
+    "category": "global_healthcare",
+    "filterItems": ["global_healthcare", "stocks"],
+    "productNumber": "13",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "UnitedHealth Group",
+
+    "price": "30",
+    "id": "14",
+    "isSale": false,
+    "image": "/assets/img/products/product_united_health.jpg",
+    "category": "global_healthcare",
+    "filterItems": ["global_healthcare", "stocks"],
+    "productNumber": "14",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  },
+  {
+    "name": "Roche Holding",
+
+    "price": "30",
+    "id": "15",
+    "isNew": true,
+    "isSale": false,
+    "image": "/assets/img/products/product_roche.jpg",
+    "category": "global_healthcare",
+    "filterItems": ["global_healthcare", "stocks"],
+    "productNumber": "15",
+    "colors": [
+      "#FCEDEA",
+      "#FEE1DB",
+      "#FFD9D1",
+      "#FDC5B9",
+      "#FDB7A8",
+      "#FFA08A"
+    ],
+    "content": "Технологическая компания (техкомпания) — тип предприятия, чья деятельность сосредоточена на разработке и производстве технологических продуктов или предоставлении технологии как услуги. Термин «технология» здесь прежде всего означает электронные технологии, такие как цифровые технологии, программное обеспечение и различные интернет-услуги, например электронная коммерция[1][2][3]. Информационные компании (ИТ) и высокотехнологичные компании также являются технологическими компаниями.",
+    "description": "В десятку крупнейших по доходам технологических компаний входят Apple, Samsung, Amazon, Hon Hai Precision Industry, Alphabet, Microsoft, Huawei, Dell Technologies, Hitachi и IBM[4]. Семь крупнейших и наиболее прибыльных технологических компаний: Apple, Samsung, Alphabet, Facebook, Intel, Microsoft и Alibaba[5].",
+    "reviews": [
+      {
+        "author": {
+          "image": "/assets/img/comment-author1.jpg",
+          "name": "Artem Gatsko"
+        },
+        "reviewDate": "Дек 02, 2022",
+        "rating": 5,
+        "content": "Отличный прогноз. Спасибо за профит!"
+      },
+      {
+        "author": {
+          "image": "/assets/img/comment-author2.jpg",
+          "name": "Mikhed Tatyana"
+        },
+        "reviewDate": "Окт 15, 2022",
+        "rating": 4,
+        "content": "Все круто, хотя прогноз пришел позже, чем ожидалось. Спасибо!"
+      }
+    ]
+  }
+]

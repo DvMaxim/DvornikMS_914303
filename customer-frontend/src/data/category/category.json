@@ -1,0 +1,22 @@
+[
+  {
+    "categoryId": "it_companies",
+    "name": "IT-компании",
+    "image": "/assets/img/top-categories-img1.jpg"
+  },
+  {
+    "categoryId": "food_manufacturing",
+    "name": "Производство продуктов питания",
+    "image": "/assets/img/top-categories-img2.jpg"
+  },
+  {
+    "categoryId": "automobile_manufacturing",
+    "name": "Производство автомобилей",
+    "image": "/assets/img/top-categories-img3.jpg"
+  },
+  {
+    "categoryId": "global_healthcare",
+    "name": "Здравоохранение",
+    "image": "/assets/img/top-categories-img4.jpg"
+  }
+]
