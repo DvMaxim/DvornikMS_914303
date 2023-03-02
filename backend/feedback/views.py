@@ -13,7 +13,7 @@ from product.models import Product
 
 class ReviewView(APIView):
     renderer_classes = [UserRenderer]
-
+    model = Review
     def post(self, request, format=None):
         try:
             user = User.objects.get(email=request.data.get('email'))
@@ -39,9 +39,13 @@ class ReviewView(APIView):
         return Response(serializer.data, status=status.HTTP_200_OK)
 
     def delete(self, request, pk, format=None):
-        review = Review.objects.get(id=pk)
-        review.delete()
-        return Response(status=status.HTTP_202_ACCEPTED)
+        try:
+            review = Review.objects.get(id=pk)
+            review.delete()
+            return Response(status=status.HTTP_202_ACCEPTED)
+        except self.model.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+
 
 
 class QusetionView(APIView):

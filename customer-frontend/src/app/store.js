@@ -7,7 +7,6 @@ import { productApi } from '../services/productApi'
 import {feedbackApi} from '../services/feedbackApi'
 import authReducer from '../features/authSlice'
 import userReducer from '../features/userSlice'
-import{customOrderApi} from '../services/customOrderApi'
 import orderReducer from '../features/orderSlice'
 
 export const store = configureStore({
@@ -16,7 +15,6 @@ export const store = configureStore({
     auth: authReducer,
     user: userReducer,
     order: orderReducer,
-    [customOrderApi.reducerPath]: customOrderApi.reducer,
     [orderApi.reducerPath]: orderApi.reducer,
     [userCRUDApi.reducerPath]: userCRUDApi.reducer,
     [productApi.reducerPath]:  productApi.reducer,
@@ -26,8 +24,7 @@ export const store = configureStore({
   getDefaultMiddleware().concat(userAuthApi.middleware,
     userCRUDApi.middleware,
     productApi.middleware,
-    feedbackApi.middleware,
-    customOrderApi.middleware),
+    feedbackApi.middleware),
 })
 
 setupListeners(store.dispatch)

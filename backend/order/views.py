@@ -12,6 +12,7 @@ from backend.settings import EMAIL_HOST_USER
 
 
 class OrderView(APIView):
+    model = Order
     def get(self, request, format=None):
         order = Order.objects.all()
         serializer = AllOrderSerializer(order, many=True)
@@ -37,9 +38,13 @@ class OrderView(APIView):
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
     def delete(self, request, pk, format=None):
-        orderRes = Order.objects.get(order_Id=pk)
-        orderRes.delete()
-        return Response(status=status.HTTP_202_ACCEPTED)
+        try:
+            orderRes = Order.objects.get(order_Id=pk)
+            orderRes.delete()
+            return Response(status=status.HTTP_202_ACCEPTED)
+        except self.model.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+
 
 
 class DetaildOrderView(APIView):

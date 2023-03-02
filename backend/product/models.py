@@ -27,6 +27,9 @@ class Product(models.Model):
     updated_at=models.DateTimeField(auto_now=True)
     image=models.ImageField(upload_to='product', default="/product/default.png")
 
+    def __str__(self):
+        return f"{self.product_Name}"
+
 
 class Cart(models.Model):
     cart_Id=models.AutoField(primary_key=True)

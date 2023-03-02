@@ -11,13 +11,13 @@ from users.errorrRenderers import UserRenderer
 
 class ProductView(APIView):
     renderer_classes = [UserRenderer]
-
+    model = Product
     def post(self, request, format=None):
         # imageSerilizer = ImageGallerySerializer(data=request.data)
         # imageSerilizer.is_valid(raise_exception=ValueError)
         # images = imageSerilizer.save()
 
-        category = Category.objects.get(category_Name=request.data.get('category_Name'))
+        category = Category.objects.get(category_name=request.data.get('category_name'))
 
         serializer = ProductAddingSerializer(data=request.data)
         if serializer.is_valid(raise_exception=ValueError):
@@ -32,9 +32,12 @@ class ProductView(APIView):
         return Response(serializer.data, status=status.HTTP_200_OK)
 
     def delete(self, request, pk, format=None):
-        ProductRes = Product.objects.get(Product_Id=pk)
-        ProductRes.delete()
-        return Response(status=status.HTTP_202_ACCEPTED)
+        try:
+            ProductRes = Product.objects.get(product_Id=pk)
+            ProductRes.delete()
+            return Response(status=status.HTTP_202_ACCEPTED)
+        except self.model.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
 
 
 class DetailedProductView(APIView):
@@ -50,7 +53,7 @@ class UpdateProductView(APIView):
 
         print(list(request.data.items()))
 
-        category = Category.objects.get(category_Name=request.data.get('category_Name'))
+        category = Category.objects.get(category_name=request.data.get('category_name'))
         snippet1 = Product.objects.get(product_Id=pk)
 
         serializer = ProductAddingSerializer(data=request.data)
@@ -67,5 +70,5 @@ class UpdateProductView(APIView):
             snippet1.product_category = category
             snippet1.save()
             serilzer = ProductSerializer(snippet1)
-            return Response(serilzer.data, status=status.HTTP_201_CREATED)
+            return Response(serilzer.data, status=status.HTTP_204_NO_CONTENT)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
