@@ -9,6 +9,11 @@ node_modules/
 coverage/
 
 # production
+backend/data
+backend/logs
+backend/results
+
+# production
 build/
 
 # misc
